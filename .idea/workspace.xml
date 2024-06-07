@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1709835909198</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709835909198</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
