@@ -7,7 +7,7 @@ class TestSolidCableMongoid < Minitest::Test
   def setup
     Mongoid.configure do |config|
       config.clients.default = {
-        hosts: ['Mac-Studio.local:27017?replicaSet=dbrs'],
+        hosts: ['localhost:27017?replicaSet=dbrs'],
         database: 'test',
       }
     end

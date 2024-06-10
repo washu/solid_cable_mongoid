@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a3d1ed-d033-4573-8576-2bbfaef4f855" name="Changes" comment="more of intial ommit">
-      <change afterPath="$PROJECT_DIR$/cable.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-mongo-setup.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/solid_cable_mongoid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/solid_cable_mongoid.iml" afterDir="false" />
+    <list default="true" id="e3a3d1ed-d033-4573-8576-2bbfaef4f855" name="Changes" comment="minor udpates to corret some build issues and a basse test to load it, it mostly works, needs more rails stub in for it to be correct">
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/action_cable/subscription_adapter/solid_mongoid.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/action_cable/subscription_adapter/solid_mongoid.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app/models/solid_cable_mongoid/message.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/models/solid_cable_mongoid/message.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/solid_cable_mongoid.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/solid_cable_mongoid.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/solid_cable_mongoid/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/solid_cable_mongoid/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-mongo-setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-mongo-setup.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_solid_cable_mongoid.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_solid_cable_mongoid.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +77,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709835909198</updated>
       <workItem from="1717767970873" duration="2855000" />
-      <workItem from="1718032766519" duration="4267000" />
+      <workItem from="1718032766519" duration="4336000" />
+      <workItem from="1718038663975" duration="164000" />
     </task>
     <task id="LOCAL-00001" summary="more of intial ommit">
       <option name="closed" value="true" />
@@ -93,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717770819301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="minor udpates to corret some build issues and a basse test to load it, it mostly works, needs more rails stub in for it to be correct">
+      <option name="closed" value="true" />
+      <created>1718038544022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718038544022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="more of intial ommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="more of intial ommit" />
+    <MESSAGE value="minor udpates to corret some build issues and a basse test to load it, it mostly works, needs more rails stub in for it to be correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor udpates to corret some build issues and a basse test to load it, it mostly works, needs more rails stub in for it to be correct" />
   </component>
 </project>

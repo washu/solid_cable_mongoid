@@ -23,6 +23,8 @@ $ gem install solid_cable_mongoid
 Update `config/cable.yml` to use the new adapter. collection_prefix is optional and defaults to "solid_cable_"
 The collections we also assume the default client connection, to override and use an alternate client connection, set the `client` key in the configuration to the name of the client connection you want to use.
 The expiration time for the message is set to 1 minute by default, to override this set the `expiration` key in the configuration to the desired expiration time in seconds.
+Please NOTE: You must connect to a replicaset, to use this gem, as chagestream tracking requires a replicaset. 
+There is a small included script that setups up a local 1 node replicaet under docker. To use this script, run `bash ./docker-mongo-setup.sh` from the root of the project.
 ```yaml
 development:
   adapter: solid_cable_mongoid
