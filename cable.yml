@@ -1,0 +1,3 @@
+test:
+  adapter: :solid_mongoid_cable
+  channel_prefix: test

@@ -36,5 +36,11 @@ production:
   adapter: solid_cable_mongoid
 ```
 
+
+Finally be sure to run the generator to create the necessary collections in your MongoDB database
+```bash
+$ rake db:mongoid:create_indexes
+```
+
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

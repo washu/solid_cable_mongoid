@@ -3,7 +3,7 @@
 module SolidCableMongoid
   class Message
     include Mongoid::Document
-    store_in collection: "#{collection_prefix}_message"
+    store_in collection: "#{::SolidCableMongoid.collection_prefix}_message"
     field :channel, type: String
     field :message, type: String
     field :expiry, type: DateTime

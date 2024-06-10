@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a3d1ed-d033-4573-8576-2bbfaef4f855" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/washu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/solid_cable_mongoid.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/action_cable/subscription_adapter/solid_mongoid.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/app/models/solid_cable_mongoid/message.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/solid_cable_mongoid/engine.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e3a3d1ed-d033-4573-8576-2bbfaef4f855" name="Changes" comment="more of intial ommit">
+      <change afterPath="$PROJECT_DIR$/cable.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-mongo-setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/solid_cable_mongoid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/solid_cable_mongoid.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/action_cable/subscription_adapter/solid_mongoid.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/action_cable/subscription_adapter/solid_mongoid.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/app/models/solid_cable_mongoid/message.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app/models/solid_cable_mongoid/message.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/solid_cable_mongoid.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/solid_cable_mongoid.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solid_cable_mongoid.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/solid_cable_mongoid.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/solid_cable_mongoid/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/solid_cable_mongoid/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_solid_cable_mongoid.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_solid_cable_mongoid.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,40 +32,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "washu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;washu&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/washu/solid_cable_mongoid.git",
-    "accountId": "21ad5f89-a1de-402b-a894-c99929c1dfc3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/washu/solid_cable_mongoid.git&quot;,
+    &quot;accountId&quot;: &quot;21ad5f89-a1de-402b-a894-c99929c1dfc3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2hYPJzXcOSOgce2ogA2sYg1R5TI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,14 +82,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709835909198</updated>
-      <workItem from="1717767970873" duration="2829000" />
+      <workItem from="1717767970873" duration="2855000" />
+      <workItem from="1718032766519" duration="4267000" />
     </task>
+    <task id="LOCAL-00001" summary="more of intial ommit">
+      <option name="closed" value="true" />
+      <created>1717770819301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717770819301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="more of intial ommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="more of intial ommit" />
   </component>
 </project>
